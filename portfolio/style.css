@@ -1,0 +1,35 @@
+/* Carousel */
+
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+/* Heading */
+
+h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Gallery */
+
+.gallery img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+
+.gallery img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
